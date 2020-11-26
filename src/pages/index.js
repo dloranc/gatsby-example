@@ -7,7 +7,10 @@ const Home = ({ data }) => {
       <h1>{data.site.siteMetadata.title}</h1>
       <h2>Hello world!</h2>
 
-      <Link to="/about">About</Link>
+      <ul>
+        <li><Link to="/blog">Blog</Link></li>
+        <li><Link to="/about">About</Link></li>
+      </ul>
     </div>
   )
 }
